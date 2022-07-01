@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+ <meta charset="utf-8">
+ <title>Error</title>
+ <style>
+  img,div, p{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+  }
+  img {
+   width: 311px;
+   height: 300px;
+  }
+  p {  text-align: center;}
+ </style>
+
+</head>
+<body>
+<div>
+<img alt="Congratulation, you have found john-travolta.gif"
+     src="https://c.tenor.com/lx2WSGRk8bcAAAAC/pulp-fiction-john-travolta.gif">
+<p th:text="${msg}"></p>
+</div>
+</body>
+</html>

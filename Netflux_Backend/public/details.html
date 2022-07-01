@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+
+    <!--CSS-->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.rtl.css" rel="stylesheet">
+    <link href="css/bootstrap-grid.css" rel="stylesheet">
+    <link href="css/bootstrap-grid.rtl.css" rel="stylesheet">
+    <link href="css/bootstrap-reboot.css" rel="stylesheet">
+    <link href="css/bootstrap-reboot.rtl.css" rel="stylesheet">
+    <link href="css/bootstrap-utilities.css" rel="stylesheet">
+    <link href="css/bootstrap-utilities.rtl.css" rel="stylesheet">
+    <link href="css/private.css" rel="stylesheet">
+
+    <!--JavaScript-->
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./js/bootstrap.esm.js"></script>
+    <script src="./js/bootstrap.js"></script>
+
+    <title>Netflux</title>
+
+</head>
+<body class="container-fluid text-white bg-dark">
+
+<header class="mt-3" id="header">
+    <div class="w-100 d-flex pb-3 justify-content-center align-items-center">
+        <img alt="logo" src="./Assets/Logo_40x40.png">
+        <div class="text-white px-3 ">
+            <h2>NetFlux Catalog</h2>
+        </div>
+    </div>
+
+</header>
+
+<main>
+    <!--      Navigation Bar-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark" id="navbar">
+
+        <a class="navbar-brand" href="index.html"> NetFlux</a>
+        <button aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler" data-bs-target="#navbarNavDropdown" data-bs-toggle="collapse"
+                type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNavDropdown">
+            <ul class="navbar-nav w-100 d-flex justify-content-around">
+                <li>
+                    <a class="nav-link" href="#">Movies</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">Series</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">Documentaries</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">Recommendations</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">Trailers</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+    <!---->
+
+    <!---Title_Container--->
+    <div class="w-100 p-5 text-white bg-dark" id="movie-title">
+        <h2 class="d-flex justify-content-center p-0" id="title">Quisque eleifend ligula non condimentum euismod</h2>
+        <h2 class="d-flex justify-content-center m-2" id="year">2021</h2>
+        <div class="d-flex justify-content-center ">
+            <button class="  btn px-5 py-2 d-flex align-items-center watch" type="button">WATCH NOW</button>
+        </div>
+        <hr>
+    </div>
+    <!---------Title_Container_end---------->
+
+    <!---Main--->
+    <div class="row">
+
+        <!---Core Description--->
+        <div class="col-lg-9" id="main">
+            <!---Movie Tile: poster, Synopsis-->
+            <div class="row bg-dark">
+
+                <!---Poster-->
+                <div class="col-md-4  col-sm-12 py-1 d-flex d-flex justify-content-sm-center">
+                    <figure class="figure">
+                        <img alt="logo" class="figure-img img-fluid"
+                             id="poster"
+                             src="./Assets/movie_poster_480x720.png">
+                    </figure>
+                </div>
+                <!--------Poster_end----------->
+
+                <!---Synopsis-->
+                <div class="col-md-8  py-1">
+                    <h3 id="d_title">Quisque eleifend ligula non condimentum euismod</h3>
+                    <h5 id="d_year">Year : 2021</h5>
+                    <h5 id="duration">Duration : 1h55m</h5>
+                    <hr>
+                    <h5>Synopsis</h5>
+                    <p id="description"> Lorem
+                    </p>
+                </div>
+                <!--------Synopsis_end------------>
+            </div>
+            <hr>
+            <!-------------------->
+
+            <!---info-->
+            <div class="row bg-dark ">
+                <p id="director">Director: dolor sit amet</p><br>
+                <!--Cast-->
+                <p>Cast: </p>
+                <ul class="col-sm-12 py-1 list-unstyled" id="actors">
+
+                </ul>
+
+                <!--------------------------->
+
+
+                <!----------------------------------->
+
+                <div class="d-flex justify-content-center ">
+                    <button class="btn px-5 py-2 d-flex align-items-center watch" type="button">WATCH NOW</button>
+                </div>
+                <!----------------------------------------------->
+            </div>
+
+            <!------------------->
+
+        </div>
+        <!-------------------->
+
+        <!--         a line to separate series from sidebar-->
+        <div class="d-none d-md-block d-sm-block d-lg-none">
+            <hr>
+        </div>
+        <!------------------------------------Side Bar-------------------------->
+        <div class="col-lg-3 col-md-6 col-sm-12 px-2 flex-md-grow-1" id="sidebar">
+            <!--Popular-->
+            <div class="row" id="popular">
+                <h4>Popular</h4>
+                <!--TEST BENCH-->
+                <!--                    <div class="col-lg-12 col-md-6 col-sm-12 d-flex justify-content-sm-center" id="sidebar-template">-->
+                <!--                        <a class="p-1 ps-lg-0" href="details.html">-->
+                <!--                            <figure class="row figure my-lg-0 d-flex align-items-center">-->
+                <!--                                <img alt="logo" class="col-lg-3 figure-img img-fluid my-lg-1"-->
+                <!--                                     src="./Assets/movie_poster_480x720.png">-->
+                <!--                                <figcaption class="col-lg-9 figure-caption align-self-lg-center">-->
+                <!--                                    <p>Quisque eleifend ligula non condimentum euismod</p>-->
+                <!--                                </figcaption>-->
+                <!--                            </figure>-->
+                <!--                        </a>-->
+                <!--                    </div>-->
+                <!-------------------------------------------->
+
+
+            </div>
+            <br>
+            <div class="d-none d-md-block d-sm-block d-lg-none">
+                <hr>
+            </div>
+
+            <div class="row" id="trailers">
+                <h4>Trailers</h4>
+            </div>
+
+        </div>
+        <!----------------------------------------------------------------------->
+
+    </div>
+
+
+</main>
+
+<!--FOOTER-->
+<br>
+<hr>
+<br>
+<footer class="bg-dark text-white w-100" id="footer">
+
+    <div class="row">
+
+        <div class="col-lg-4">
+            <ul>
+                <li><h5>Information</h5></li>
+
+                <li>
+                    <a href="#">Privacy Policy</a>
+                </li>
+                <li>
+                    <a href="#">Terms & Conditions</a>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="col-lg-4 ">
+            <ul>
+                <li><h5>Support</h5></li>
+                <li>
+                    <a href="#">FAQ</a>
+                </li>
+                <li>
+                    <a href="#">Help Center</a>
+                </li>
+                <li>
+                    <a href="#">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-lg-4 ">
+            <ul>
+                <li><h5>Misc</h5></li>
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+                <li>
+                    <a href="#">Forum</a>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="text-center p-3 bg-dark text-white">
+        <p class="text-white">© 2021 Copyright: NetFlux.com</p>
+    </div>
+
+</footer>
+
+</body>
+</html>

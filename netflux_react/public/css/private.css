@@ -1,0 +1,143 @@
+h1, h2, h3, h4, h5, label {
+    font-family: Georgia, serif;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+}
+
+a, p, h4, label {
+    text-decoration: none;
+    color: white;
+}
+
+#header h2 {
+    cursor: default;
+}
+
+nav {
+    border-top: solid 1px #ff9900;
+    border-bottom: solid 1px #ff9900;
+}
+
+input, textarea {
+    background-color: #212529;
+    color: white;
+}
+
+.details input:focus, textarea:focus {
+    color: #ff9900;
+    outline: 2px solid #ff9900;
+}
+
+#navbar a {
+    text-transform: uppercase;
+}
+
+#navbar a:hover {
+    color: #ff9900;
+    font-weight: bold;
+
+}
+
+#movies-row p:hover, #series-row p:hover {
+    color: #ff9900;
+}
+
+#movies-row figure:hover, #series-row figure:hover, #sidebar figure:hover {
+    cursor: pointer;
+}
+
+#movies-row figure:hover img, #series-row figure:hover img {
+    background-color: #ff9900;
+    border-color: #ff9900;
+}
+
+#movies-row figure:hover p, #series-row figure:hover p {
+    color: #ff9900;
+
+
+}
+
+#movies-row h3, #series-row h3 {
+    cursor: default;
+}
+
+#sidebar a:hover, #update a:hover {
+    background-color: #ff9900;
+}
+
+#sidebar a:hover *,#update a:hover *{
+    color: #000000;
+}
+
+.highlight:hover, .highlight:hover h4, .highlight:hover p, .highlight:hover a, .highlight:hover div {
+    background-color: #ff9900;
+    color: #000000;
+}
+
+.max-height {
+    width: auto;
+    max-height: 190px;
+}
+.cast{
+    border: 1px solid white;
+
+}
+
+#footer a {
+    text-decoration: none;
+    color: #ff9900;
+}
+
+#footer ul {
+    list-style-type: none;
+}
+
+#footer li {
+    padding: 3px;
+}
+
+#footer a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #ff9900;
+}
+
+button.watch {
+    color: #fff;
+    background-color: #198754;
+    border-color: #198754;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+button.cancel {
+    background-color: red;
+    border-color: red;
+}
+
+button.reset {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.reset{
+    max-height: 45px;
+}
+
+button:hover {
+    color: #000000;
+    background-color: #ff9900;
+    border-color: #ff9900;
+}
+
+#actors li {
+    width: 33%;
+    float: left;
+}
+#actors_edit li {
+     width: 25%;
+     float: left;
+ }
